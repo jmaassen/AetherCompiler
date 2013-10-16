@@ -47,7 +47,7 @@
 	</copy>
 
         <!-- create a zip file with the sources -->
-        <zip destfile="${sources}.zip">
+        <zip destfile="${sources}">
             <zipfileset dir="src" includes="**/*.java"/>
             <zipfileset dir="." includes="../LICENSE.txt" />
         </zip>
